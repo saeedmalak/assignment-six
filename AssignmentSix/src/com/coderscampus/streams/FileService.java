@@ -24,6 +24,7 @@ public class FileService {
 				if (index != 0) {
 					tesla.add(new Vehicle(props[0], Integer.parseInt(props[1])));
 				}
+				// Skip the first line which is just the Column titles
 				else {
 					index++;
 				}
